@@ -28,10 +28,10 @@ def gradient(start, end, steps):
 	colors.append(tuple(end))
 	return tuple(colors)
 
-upleft = [33, 186, 247]
-downleft = [247, 34, 222]
-upright = [33, 51, 247]
-downright = [79, 33, 247]
+upleft = random_color()
+downleft = random_color()
+upright = random_color()
+downright = random_color()
 
 output = tuple()
 first_row = gradient(upleft, downleft, size)
